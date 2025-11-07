@@ -17,9 +17,6 @@ export default class Server implements Party.Server {
   }
 
   onMessage(message: any, sender: Party.Connection) {
-    // Pour debug : voyons ce qu'on reçoit vraiment
-    console.log("Raw message:", message);
-
     // Si c’est un MessageEvent, on récupère le .data
     const text = typeof message === "string" ? message : message.data;
 
