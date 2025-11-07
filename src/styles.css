@@ -13,6 +13,16 @@ body {
   color: #333;
 }
 
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
